@@ -11,5 +11,15 @@ html {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  filter: blur(6px);
+  /* filter: blur(6px); */
+}
+
+h1 {
+  font-family: "Satisfy", cursive;
+  color: #febe64;
+  backdrop-filter: blur(10px);
+  font-size: 8rem;
+  text-shadow: 8px 10px 0px rgba(0, 0, 0, 0.47);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }

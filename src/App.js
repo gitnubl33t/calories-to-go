@@ -5,7 +5,8 @@ export default function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Calories to Go</h1>
+        <nav></nav>
+        <h1>Calories on the Go</h1>
       </header>
     </div>
   );
