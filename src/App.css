@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: rgba(244, 98, 93, 0.18);
+  backdrop-filter: blur(4px);
 }
 
 html {
@@ -14,12 +16,26 @@ html {
   /* filter: blur(6px); */
 }
 
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+
+nav a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-left: 1rem;
+  color: whitesmoke;
+}
+
 h1 {
   font-family: "Satisfy", cursive;
   color: #febe64;
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
   font-size: 8rem;
   text-shadow: 8px 10px 0px rgba(0, 0, 0, 0.47);
   padding-top: 1rem;
   padding-bottom: 1rem;
+  text-align: center;
 }
